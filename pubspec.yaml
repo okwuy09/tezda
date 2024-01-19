@@ -1,0 +1,59 @@
+name: tezda
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  otp_text_field: ^1.1.3
+  flutter_svg: ^2.0.9
+  top_snackbar_flutter: ^3.1.0
+  cached_network_image: ^3.3.1
+  dio: ^5.4.0
+  event_bus: ^2.0.0
+  get_it: ^7.6.7
+  flutter_hooks: ^0.20.4
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  flutter_native_splash: ^2.3.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^3.0.1
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  #image: assets/icon.png
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/icons/
+ 
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf
+  #       
